@@ -1,0 +1,21 @@
+@mixin flex($justify, $align, $direction, $gap, ) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+    gap: $gap;
+}
+
+@mixin gridRepeat($responsiveSize, $gridGap) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($responsiveSize, 1fr));
+    grid-gap: $gridGap;
+}
+
+@mixin forAfterOrBefore($height, $width, $bgColor) {
+    content: '';
+    position: absolute;
+    height: $height;
+    width: $width;
+    background-color: $bgColor;
+}

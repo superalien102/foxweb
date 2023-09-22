@@ -1,0 +1,140 @@
+@import "./mixins";
+@import "./variables";
+@import "../components/index";
+
+@font-face {
+    font-family: mainFontFamily;
+    src: url("../assets/fonts/Flame-Regular.ttf");
+}
+
+@font-face {
+    font-family: mainFontFamilySans;
+    src: url("../assets/fonts/FlameSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: mainFontFamilyBold;
+    src: url("../assets/fonts/Flame-Bold.ttf");
+}
+
+/* GLOBAL styles */
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: mainFontFamilySans;
+    position: relative;
+}
+
+@media screen and (max-width: 900px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: mainFontFamily !important;
+}
+
+p,
+a,
+button,
+input,
+*::placeholder,
+label,
+textarea {
+    font-family: mainFontFamilySans !important;
+}
+
+input,
+textarea {
+    font-size: 1.25rem !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+
+    pointer-events: none;
+}
+
+//Scrollbar
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #efefef;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $accentColor;
+    border-radius: 10px;
+}
+
+/* progress bar */
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: $accentColor;
+    transform-origin: 0%;
+    z-index: 999999;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .05);
+}
+
+@media screen and (max-width: 900px) {
+    .primary-button-link {
+        width: 100%;
+    }
+}
+
+.select-currency svg {
+    fill: #fff
+}
+
+.pricelist-row-ticket:last-child {
+    background-color: $accentColor;
+
+    p {
+        color: $whiteColor;
+
+        &:first-child {
+            border-bottom: 5px dotted $whiteColor;
+        }
+    }
+}
+
+.MuiFilledInput-root {
+    height: 100% !important;
+}
+
+.mainpage-form-submit-button:hover svg {
+    transform: translateX(5px) translateY(-5px);
+}

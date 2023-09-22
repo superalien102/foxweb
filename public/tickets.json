@@ -1,0 +1,143 @@
+{
+    "onetimetickets": [
+        {
+            "weekdays": [
+                {
+                    "title": "Adult",
+                    "price": 6.2,
+                    "desc": "For persons above 18 years"
+                },
+                {
+                    "title": "Child",
+                    "price": 2.5,
+                    "desc": "For childs under 14 years"
+                },
+                {
+                    "title": "Student / Elder",
+                    "price": 4,
+                    "desc": "With proper student or elderly license!"
+                },
+                {
+                    "title": "Family",
+                    "price": 12.4,
+                    "desc": "2 Adult + (min.) 2 Children"
+                },
+                {
+                    "title": "Preferential",
+                    "price": 2,
+                    "desc": "For ill people"
+                }
+            ]
+        },
+        {
+            "weekends": [
+                {
+                    "title": "Adult",
+                    "price": 8.6,
+                    "desc": "For persons above 18 years"
+                },
+                {
+                    "title": "Child",
+                    "price": 3,
+                    "desc": "For childs under 14 years"
+                },
+                {
+                    "title": "Student / Elder",
+                    "price": 6.2,
+                    "desc": "With proper student or elderly license!"
+                },
+                {
+                    "title": "Family",
+                    "price": 17.2,
+                    "desc": "2 Adult + (min.) 2 Children"
+                },
+                {
+                    "title": "Preferential",
+                    "price": 2.5,
+                    "desc": "For ill people"
+                }
+            ]
+        }
+    ],
+    "eventtickets": [
+        {
+            "nighttrip": [
+                {
+                    "title": "Adult",
+                    "price": 5,
+                    "desc": "For persons above 18 years"
+                },
+                {
+                    "title": "Child",
+                    "price": 1.5,
+                    "desc": "For childs under 14 years"
+                },
+                {
+                    "title": "Student / Elder",
+                    "price": 3,
+                    "desc": "With proper student or elderly license!"
+                }
+            ]
+        },
+        {
+            "animalshow": [
+                {
+                    "title": "Adult",
+                    "price": 6,
+                    "desc": "For persons above 18 years"
+                },
+                {
+                    "title": "Child",
+                    "price": 2,
+                    "desc": "For childs under 14 years"
+                },
+                {
+                    "title": "Student / Elder",
+                    "price": 4.2,
+                    "desc": "With proper student or elderly license!"
+                }
+            ]
+        },
+        {
+            "closeup": [
+                {
+                    "title": "Adult",
+                    "price": 7,
+                    "desc": "For persons above 18 years"
+                },
+                {
+                    "title": "Child",
+                    "price": 2.5,
+                    "desc": "For childs under 14 years"
+                },
+                {
+                    "title": "Student / Elder",
+                    "price": 4.5,
+                    "desc": "With proper student or elderly license!"
+                }
+            ]
+        }
+    ],
+    "longperiodtickets": [
+        {
+            "title": "Weekly",
+            "price": 20,
+            "desc": "Discounts are only available through events!"
+        },
+        {
+            "title": "Monthly",
+            "price": 55,
+            "desc": "Discounts are only available through events!"
+        },
+        {
+            "title": "Annual",
+            "price": 150,
+            "desc": "Discounts are only available through events!"
+        },
+        {
+            "title": "Annual Gift Card",
+            "price": 125,
+            "desc": "You can purchase it as a gift for someone you love!"
+        }
+    ]
+}
